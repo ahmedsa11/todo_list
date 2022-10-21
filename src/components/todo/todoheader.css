@@ -1,0 +1,26 @@
+.todohead{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.todohead select{
+    padding: 8px 15px;
+    background-color: #ddd;
+    border: none;
+    
+}
+
+.todohead select.dark{
+    background-color: #333;
+    color: white;
+}
+.todohead button{
+    background-color: blueviolet;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
